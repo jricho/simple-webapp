@@ -27,9 +27,9 @@ spec:
   params:
 #   - name: testing_pipeline_matching_labels # multi-pipeline functionality
 #     value: {"apps.tanzu.vmware.com/pipeline":"test", "apps.tanzu.vmware.com/language":"java"} # multi-pipeline functionality
-    - name: testing_pipeline_matching_labels
-      value:
-        apps.tanzu.vmware.com/pipeline: testcontainers-java    
+#   - name: testing_pipeline_matching_labels
+#     value:
+#       apps.tanzu.vmware.com/pipeline: testcontainers-java    
     - name: api_descriptor
       value:
         type: openapi
