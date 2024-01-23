@@ -18,3 +18,5 @@ spec:
     - greetings-from-environment
     - greetings-from-db
     - health-info
+  consumesApis:
+    - simple-webapp-bdc48340
