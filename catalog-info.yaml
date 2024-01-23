@@ -14,6 +14,8 @@ spec:
   type: service
   lifecycle: experimental
   owner: default-team
+  dependsOn:
+    - resource:default/simple-webapp
   providesApis:
     - greetings-from-environment
     - greetings-from-db
